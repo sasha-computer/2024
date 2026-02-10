@@ -38,6 +38,8 @@ A Rust rewrite of `@tacoinfra/getTez`, the Tezos testnet faucet tool. The origin
 
 Fork of the Etherlink.com landing page. Contributed to the marketing site for Etherlink, a Tezos L2.
 
+![Etherlink](./etherlink-website/etherlink.png)
+
 **Stack:** Next.js · Vercel
 
 → [browse code](./etherlink-website)
