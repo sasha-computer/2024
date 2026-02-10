@@ -1,6 +1,6 @@
 # 2024
 
-Monorepo for my 2024 projects — ZK proofs, L2 tooling, and developer experience.
+Monorepo for my 2024 projects. ZK proofs, L2 tooling, and developer experience.
 
 ## ⭐ create-steel-app
 
@@ -12,7 +12,7 @@ A one-command setup script for building ZK execution proof applications on Ether
 
 ## ⭐ collatz-zk
 
-A ZK proof that a given number satisfies the [Collatz conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture) — verified on-chain via RISC Zero. The guest program runs the full Collatz sequence inside the zkVM using `alloy_primitives::U256` for arbitrary precision, and only commits the input number to the journal if it converges to 1. The on-chain verifier then trustlessly confirms the computation without re-executing it.
+A ZK proof that a given number satisfies the [Collatz conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture), verified on-chain via RISC Zero. The guest program runs the full Collatz sequence inside the zkVM using `alloy_primitives::U256` for arbitrary precision, and only commits the input number to the journal if it converges to 1. The on-chain verifier then trustlessly confirms the computation without re-executing it.
 
 **Stack:** Rust · RISC Zero zkVM · Solidity · Foundry · Alloy
 
@@ -28,7 +28,7 @@ A workshop project for learning L1 → L2 messaging with the Arbitrum SDK. Deplo
 
 ## ⭐ teztap
 
-A Rust rewrite of `@tacoinfra/getTez` — the Tezos testnet faucet tool. The original was a Node.js PoW challenge runner; this version does the same thing but *fast*, because Rust. One command to get ghostnet XTZ without making your CPU cry. 🚰🦀
+A Rust rewrite of `@tacoinfra/getTez`, the Tezos testnet faucet tool. The original was a Node.js PoW challenge runner; this version does the same thing but *fast*, because Rust. One command to get ghostnet XTZ without making your CPU cry. 🚰🦀
 
 **Stack:** Rust
 
@@ -36,7 +36,7 @@ A Rust rewrite of `@tacoinfra/getTez` — the Tezos testnet faucet tool. The ori
 
 ## ⭐ etherlink-website
 
-Fork of the Etherlink.com landing page — contributed to the marketing site for Etherlink, a Tezos L2.
+Fork of the Etherlink.com landing page. Contributed to the marketing site for Etherlink, a Tezos L2.
 
 **Stack:** Next.js · Vercel
 
